@@ -1,10 +1,15 @@
-import React from 'react'
-import Header from 'layout/Header'
+import React from 'react';
+import Header from './layout/Header.jsx';
+import About from './pages/About.jsx';
 
 function App () {
   return (
-    <Header />
-  )
+    <div>
+      <Header />
+      <About />
+    </div>
+
+  );
 }
 
 export default App;

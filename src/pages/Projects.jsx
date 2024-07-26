@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <div>
             <h1>Projects</h1>
-            <p>LWadfasdfsi ut aliquip ex ea commodo consequat</p>
+            <p className="description">LWadfasdfsi ut aliquip ex ea commodo consequat</p>
         </div>
     );
 }

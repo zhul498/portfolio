@@ -14,7 +14,7 @@ const Header = () => {
                 <a href="https://github.com/zhul498" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Header;

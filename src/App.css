@@ -3,6 +3,10 @@ body {
     font-family: Calibri;
 }
 
+p {
+    color: #505050;
+}
+
 .centered-container {
     display: flex;
     justify-content: center;
@@ -77,7 +81,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.work-experience h3, .work-experience h4, .work-experience p {
+.work-experience h3, .work-experience h4, .work-experience h5, .work-experience p{
     margin: 0;
     padding: 0;
 }

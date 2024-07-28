@@ -5,6 +5,7 @@ body {
 
 p {
     color: #505050;
+    font-size: large;
 }
 
 .centered-container {
@@ -15,7 +16,7 @@ p {
 }
 
 .centered-content {
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
     text-align: left;
 }
@@ -25,7 +26,7 @@ p {
     display: inline;
 }
 
-.nav-list > li {
+.nav-list li {
     display: inline-block;
     font-size: 20px;
     margin-right: 20px;
@@ -43,10 +44,6 @@ p {
     text-decoration: underline;
 }
 
-.bolder {
-    font-weight: bolder;
-}
-
 .image-container img {
     height: auto;
     display: block;
@@ -56,17 +53,15 @@ p {
 }
 
 .header-content {
-    margin-right: 20px;
     line-height: .2;
-    flex-grow: 1;
 }
 
-.header-content > h2 {
+.header-content h2 {
     font-weight: lighter;
 }
 
 .header-container{
-    padding: 20px;
+    padding: 50px;
 }
 
 .link {
@@ -81,7 +76,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.work-experience h3, .work-experience h4, .work-experience h5, .work-experience p{
+.sub-category h3, .sub-category h4, .sub-category h5, .sub-category p{
     margin: 0;
     padding: 0;
 }

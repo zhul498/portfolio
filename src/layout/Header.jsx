@@ -13,9 +13,9 @@ const Header = () => {
                 <p>Portland, Oregon, United States</p>
                 <div className="header-content centered-content links-container">
                     <a href="mailto:lianzhu@pdx.edu" target="_blank" rel="noopener noreferrer" className="link">Email</a>
-                    <span className="bolder"> | </span>
+                    <span> | </span>
                     <a href="https://www.linkedin.com/in/lianzhu-/" target="_blank" rel="noopener noreferrer" className="link">Linkedin</a>
-                    <span className="bolder"> | </span>               
+                    <span> | </span>               
                     <a href="https://github.com/zhul498" target="_blank" rel="noopener noreferrer" className="link">Github</a>
                 </div>
             </header>

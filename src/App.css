@@ -3,8 +3,17 @@ body {
     font-family: Calibri;
 }
 
-.description {
-    font-size:larger;
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.centered-content {
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
 }
 
 .nav-list {
@@ -14,7 +23,7 @@ body {
 
 .nav-list > li {
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 20px;
 }
 
@@ -34,31 +43,41 @@ body {
     font-weight: bolder;
 }
 
+.image-container img {
+    height: auto;
+    display: block;
+    max-width: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.header-content {
+    margin-right: 20px;
+    line-height: .2;
+    flex-grow: 1;
+}
+
+.header-content > h2 {
+    font-weight: lighter;
+}
+
 .header-container{
     padding: 20px;
 }
 
-.header {
-    margin: 0;
-    padding: 0;
-    line-height: .2;
-  }
-
-.header h1 {
-    color: black;
-}
-.header h2 {
-    color: gray;
-    font-weight: 500;
-}
-.header p {
-    color:gray;
-}
-
-a:link {
+.link {
     text-decoration: none;
+}
+
+.links-container {
+    margin-top: 10px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.work-experience h3, .work-experience h4, .work-experience p {
+    margin: 0;
+    padding: 0;
 }

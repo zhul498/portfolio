@@ -4,7 +4,6 @@ const Miscellaneous = () => {
     return (
         <div className="centered-container">
             <div className="centered-content">
-                <h1>Thank You</h1>
                 <p>Thanks for looking through my website!</p>
 
                 <h1>Acknowledgements</h1>

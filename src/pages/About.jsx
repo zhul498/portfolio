@@ -6,8 +6,8 @@ const About = () => {
             <div className="centered-content">
                 <h1>About Me</h1>
                 <p>I am a rising Sophomore at Portland State University. As a current student focused mainly on learning and applying my skills as soon as possible, I am excited to
-                    use technology to create cool things. My projects are where I try to apply my knowledge. Outside of school, I enjoy exercising, playing video games, and trying 
-                    out new foods.
+                    use technology to create cool things. My projects gives me the ability to apply my knowledge. Outside of school, I enjoy exercising, playing video games, and 
+                    trying out new foods.
                 </p>
                 
                 <div className="sub-category">
@@ -30,6 +30,7 @@ const About = () => {
                     <p>Customer service, P.O.S Machine, Membership management.</p>
 
                     <h1>Skills</h1>
+                    <p>C++ - Python - </p>
                 </div>
 
             </div>

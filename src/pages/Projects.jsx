@@ -18,9 +18,7 @@ const Projects = () => {
                     <h3 className="vertical-timeline-element-title">Roblox Group Management Service</h3>
                     <p>ROBLOX group management service, handling 300+ members.</p>
                 </VerticalTimelineElement>
-            </VerticalTimeline>
 
-            <VerticalTimeline lineColor="#000">
                 <VerticalTimelineElement 
                 className="vertical-timeline-element--education" 
                 iconStyle={{background:"#000", color: "#fff"}} 
@@ -29,9 +27,7 @@ const Projects = () => {
                     <h3 className="vertical-timeline-element-title">Task Manager</h3>
                     <p>C++ application using a linked list data structure, with functionalities such as adding, deleting, and updating tasks, and a user-friendly interface.</p>
                 </VerticalTimelineElement>
-            </VerticalTimeline>
 
-            <VerticalTimeline lineColor="#000">
                 <VerticalTimelineElement 
                 className="vertical-timeline-element--education" 
                 iconStyle={{background:"#000", color: "#fff"}} 

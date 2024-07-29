@@ -52,16 +52,22 @@ p {
     align-self: center;
 }
 
-.header-content {
+.header-content{
     line-height: .2;
 }
 
 .header-content h2 {
-    font-weight: lighter;
+    font-weight: lighter; 
 }
 
 .header-container{
-    padding: 50px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
 }
 
 .link {

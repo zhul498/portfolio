@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div className="centered-container">
             <div className="centered-content">
-                <h2>Where to Find Me</h2>
+                <h1>Where to Find Me</h1>
                 <p>Testingtestingtesitng</p>
             </div>
         </div>

@@ -9,18 +9,18 @@ const About = () => {
                     use technology to create cool things. My projects are where I try to apply my knowledge. Outside of school, I enjoy exercising, playing video games, and trying 
                     out new foods.
                 </p>
-
-                <h1>Documents</h1>
-                <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer" className="link">Resume</a>
-                <span> | </span>
-                <a href="" target="_blank" rel="noopener noreferrer" className="link">Unofficial Transcript</a>
-
                 
                 <div className="sub-category">
+                    
+                    <h1>Documents</h1>
+                    <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer" className="link">Resume</a>
+                    <span> | </span>
+                    <a href="" target="_blank" rel="noopener noreferrer" className="link">Unofficial Transcript</a>
+
                     <h1>Education</h1>
                     <h3>Portland State University</h3>
                     <h4>Bachelor's of Science</h4>
-                    <h5>Expected Graduation: June 2027</h5>
+                    <h5>Expected Graduation: June 2027 GPA: 3.96/4.00</h5>
                     <p>Studying B.S in Computer Science from the Maseeh College of Engineering.</p>
 
                     <h1>Work Experience</h1>

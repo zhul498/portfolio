@@ -26,9 +26,9 @@ const About = () => {
 
                     <h1>Work Experience</h1>
                     <h3>City of Hillsboro</h3>
-                    <h4>Front Desk Member</h4>
+                    <h4>Front Desk Member at Shute Park Aquatic & Recreation Center</h4>
                     <h5>March 2023 - Present</h5>
-                    <p>Customer service - P.O.S Machine - Membership management.</p>
+                    <p>Customer service - P.O.S Machine - Membership management</p>
 
                     <br></br>
 

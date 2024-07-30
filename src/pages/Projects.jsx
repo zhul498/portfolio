@@ -22,20 +22,22 @@ const Projects = () => {
                 <VerticalTimelineElement 
                 className="vertical-timeline-element--education" 
                 iconStyle={{background:"#000", color: "#fff"}} 
+                icon={<CgGym />} 
+                date="February 2024 - June 2024">
+                    <h3 className="vertical-timeline-element-title">Barbell Path Tracker</h3>
+                    <p>OpenCV program to track the path of a barbell and calculate the deviation from the center of path.</p>
+                </VerticalTimelineElement>
+                
+                <VerticalTimelineElement 
+                className="vertical-timeline-element--education" 
+                iconStyle={{background:"#000", color: "#fff"}} 
                 icon={<FaTasks />} 
                 date="March 2023 - July 2023">
                     <h3 className="vertical-timeline-element-title">Task Manager</h3>
                     <p>C++ application using a linked list data structure, with functionalities such as adding, deleting, and updating tasks, and a user-friendly interface.</p>
                 </VerticalTimelineElement>
 
-                <VerticalTimelineElement 
-                className="vertical-timeline-element--education" 
-                iconStyle={{background:"#000", color: "#fff"}} 
-                icon={<CgGym />} 
-                date="February 2022 - June 2022">
-                    <h3 className="vertical-timeline-element-title">Barbell Path Tracker</h3>
-                    <p>OpenCV program to track the path of a barbell and calculate the deviation from the center of path.</p>
-                </VerticalTimelineElement>
+
             </VerticalTimeline>
             
         </div>

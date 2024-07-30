@@ -19,6 +19,8 @@ p {
     max-width: 800px;
     width: 100%;
     text-align: left;
+    line-height: 1.5;
+    
 }
 
 .nav-list {
@@ -86,4 +88,115 @@ a:hover {
 .sub-category h3, .sub-category h4, .sub-category h5, .sub-category p{
     margin: 0;
     padding: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    z-index: 1000; 
+}
+
+.text-link {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: inherit; 
+    font-family: inherit; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    padding-bottom: 50px; 
+    margin-bottom: 100px; 
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+  
+.skill-bubble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.skill-bubble:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 2rem; /* Adjust size as needed */
+    color: #333;
+}
+  
+.skill-name {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
 }

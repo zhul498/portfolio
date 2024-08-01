@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css'
 import Header from './layout/Header.jsx';
 import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
@@ -8,6 +7,7 @@ import Navigation from './layout/Navigation.jsx';
 import Miscellaneous from './pages/Miscellaneous.jsx';
 import Footer from './layout/Footer.jsx';
 import Feedback from './components/Feedback.jsx';
+import './App.css';
 
 const AppContent = () => {
 

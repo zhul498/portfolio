@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../src/App.css';
 
 const Feedback = ({ show, onClose }) => {
   if (!show) return null;

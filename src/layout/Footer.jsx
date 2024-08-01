@@ -1,13 +1,12 @@
 import React from 'react';
-import '../../src/App.css';
 
 const Footer = ({ onOpenPopup }) => {
   return (
-    <footer>
-      <div>
+    <footer className="fixed bottom-0 left-0 w-full bg-gray-100 text-center z-50">
+      <div className="py-4">
         <p>
           Please leave your feedback{' '}
-          <button onClick={onOpenPopup} className="text-link">
+          <button onClick={onOpenPopup} className="text-blue-500 hover:underline">
             here
           </button>
         </p>

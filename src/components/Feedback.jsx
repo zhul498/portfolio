@@ -1,18 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../src/App.css';
 
 const Feedback = ({ show, onClose }) => {
   if (!show) return null;
 
+  const handleOverlayClick = (e) => 
+  {
+    if (e.target === e.currentTarget) 
+    {
+      onClose();
+    }
+  };
+  
   return (
-    <div className="popup-overlay" onClick={onClose}>
-      <div className="popup-content" onClick={(e) => e.stopPropagation()}>
-        <h2>Leave Feedback</h2>
-        <form>
-          <textarea placeholder="Let me know what you think..." rows="5"></textarea>
-          <br />
-          <button type="submit">Submit</button>
-        </form>
+    <div className="popup-overlay" onClick={handleOverlayClick}>
+      <div className="popup-content">
+        <div className="iframe-container">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfuEAqZaviyrnbtG6Gm0qGP66kvzfndW3x-avZPDqG3Cg29yg/viewform?embedded=true"
+            title="Feedback Form"
+            style={{ width: '100%', height: '100%' }}
+            allowFullScreen
+          />
+        </div>
       </div>
     </div>
   );

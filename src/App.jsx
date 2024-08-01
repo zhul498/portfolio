@@ -30,8 +30,8 @@ const AppContent = () => {
       <Feedback show={isPopupOpen} onClose={handleClosePopup} />
 
     </div>
-  )
-}
+  );
+};
 
 
 function App () {

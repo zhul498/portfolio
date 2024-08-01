@@ -3,7 +3,7 @@ import React from 'react';
 const Miscellaneous = () => {
     return (
         <div className="centered-container">
-            <div className="centered-content">
+            <div className="centered-content main-container">
                 <p>Thanks for looking through my website!</p>
 
                 <h1>Acknowledgements</h1>

@@ -9,7 +9,7 @@ import { FaTasks } from "react-icons/fa";
 const Projects = () => {
     return (
         <div>
-            <VerticalTimeline lineColor="#000">
+            <VerticalTimeline lineColor="#000" className="main-container">
                 <VerticalTimelineElement
                  className="vertical-timeline-element--education" 
                  iconStyle={{background:"#000", color: "#fff"}} 

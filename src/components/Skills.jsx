@@ -11,7 +11,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="skills-container">
+    <div className="skills-container pb-8">
       {skills.map((skill, index) => (
         <div className="skill-bubble" key={index}>
           <div className="icon">{skill.icon}</div>

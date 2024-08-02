@@ -7,6 +7,7 @@ import Navigation from './layout/Navigation.jsx';
 import Miscellaneous from './pages/Miscellaneous.jsx';
 import Footer from './layout/Footer.jsx';
 import Feedback from './components/Feedback.jsx';
+import { DarkModeProvider } from './components/DarkModeContext.jsx';
 import './App.css';
 
 const AppContent = () => {
@@ -16,20 +17,22 @@ const AppContent = () => {
   const handleClosePopup = () => setIsPopupOpen(false);
 
   return (
-    <div>
-      <Header />
-      <Navigation />
-      <main>
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/projects/*" element={<Projects />} />
-          <Route path="/miscellaneous/*" element={<Miscellaneous />} />
-        </Routes>
-      </main>
-      <Footer onOpenPopup={handleOpenPopup} />
-      <Feedback show={isPopupOpen} onClose={handleClosePopup} />
+    <DarkModeProvider>
+      <div className="min-h-screen bg-white dark:bg-neutral-900">
+        <Header />
+        <Navigation />
+        <main>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/projects/*" element={<Projects />} />
+            <Route path="/miscellaneous/*" element={<Miscellaneous />} />
+          </Routes>
+        </main>
+        <Footer onOpenPopup={handleOpenPopup} />
+        <Feedback show={isPopupOpen} onClose={handleClosePopup} />
+      </div>
+    </DarkModeProvider>
 
-    </div>
   );
 };
 

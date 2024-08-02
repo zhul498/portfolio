@@ -13,7 +13,7 @@ const Feedback = ({ show, onClose }) => {
   
   return (
     <div className="popup-overlay" onClick={handleOverlayClick}>
-      <div className="popup-content">
+      <div className="popup-content bg-white dark:bg-neutral-900">
         <div className="iframe-container">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfuEAqZaviyrnbtG6Gm0qGP66kvzfndW3x-avZPDqG3Cg29yg/viewform?embedded=true"

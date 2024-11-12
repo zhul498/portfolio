@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-3xl w-full text-left leading-loose mb-20 mt-10">
         <h1 className="text-2xl font-bold mb-5">About Me</h1>
         <p className="text-gray-700 leading-7 mb-6  dark:text-gray-400">
-          I am a rising Sophomore at Portland State University. As a current student focused mainly on learning and applying my skills as soon as possible, I am excited to
+          I am a Sophomore at Portland State University. As a current student focused mainly on learning and applying my skills as soon as possible, I am excited to
           use technology to create cool things. My projects give me the ability to apply my knowledge. Outside of school, I enjoy exercising, playing video games, and 
           trying out new foods.
         </p>

@@ -17,7 +17,7 @@ const About = () => {
           <p className="leading-7">
             <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Resume</a>
             <span> | </span>
-            <a href="" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Unofficial Transcript</a>
+            <a href="/assets/Transcript.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Unofficial Transcript</a>
           </p>
         </div>
 

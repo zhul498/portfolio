@@ -5,7 +5,7 @@ const Miscellaneous = () => {
         <div className="flex justify-center items-center gap-5 bg-white dark:bg-neutral-900 dark:text-white">
             <div className="max-w-3xl w-full text-left leading-loose">
                 <div className="mb-6">
-                    <p className="text-gray-700 leading-7 mb-4 dark:text-gray-400">Thanks for looking through my website! This was last updated October 10th, 2024.</p>
+                    <p className="text-gray-700 leading-7 mb-4 dark:text-gray-400">Thanks for looking through my website! This was last updated November 15th, 2024.</p>
                 </div>
                 
                 <div className="mb-6">

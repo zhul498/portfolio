@@ -5,6 +5,8 @@ import { SiRoblox } from "react-icons/si";
 import { CgGym } from "react-icons/cg";
 import { FaTasks } from "react-icons/fa";
 import { DarkModeContext } from '../components/DarkModeContext.jsx';
+import { GiVikingHelmet } from "react-icons/gi";
+
 
 const Projects = () => {
     const { darkMode } = useContext(DarkModeContext);
@@ -12,6 +14,18 @@ const Projects = () => {
     return (
         <div className={`projects-container ${darkMode ? 'bg-neutral-900' : 'bg-white'}`}>
             <VerticalTimeline lineColor={darkMode ? "#fff" : "#000"}>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: darkMode ? '#333' : '#fff', color: darkMode ? '#fff' : '#000' }}
+                    contentArrowStyle={{ borderRight: `7px solid ${darkMode ? '#333' : '#fff'}` }}
+                    iconStyle={{ background: darkMode ? '#333' : '#000', color: '#fff' }}
+                    icon={<GiVikingHelmet />}
+                    date="December 2024 - Present">
+                    <h3 className="vertical-timeline-element-title text-xl font-semibold">Viking Grades</h3>
+                    <p>Currently developing a website to enhance transparency at PSU. This website will provide students with detailed information about course performance trends,
+                        grade distributions, and instructor data.
+                    </p>
+                </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: darkMode ? '#333' : '#fff', color: darkMode ? '#fff' : '#000' }}

@@ -20,7 +20,12 @@ const Projects = () => {
                     iconStyle={{ background: darkMode ? '#333' : '#000', color: '#fff' }}
                     icon={<GiVikingHelmet />}
                     date="December 2024 - Present">
-                    <h3 className="vertical-timeline-element-title text-xl font-semibold">Viking Grades</h3>
+                    <a href="https://example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl font-semibold text-green-700 hover:text-green-900 hover:underline">
+                        <h3 className="vertical-timeline-element-title">Viking Grades</h3>
+                    </a>
                     <p>Currently developing a website to enhance transparency at PSU. This website will provide students with detailed information about course performance trends,
                         grade distributions, and instructor data.
                     </p>
@@ -32,7 +37,12 @@ const Projects = () => {
                     iconStyle={{ background: darkMode ? '#333' : '#000', color: '#fff' }}
                     icon={<SiRoblox />}
                     date="June 2024 - December 2024">
-                    <h3 className="vertical-timeline-element-title text-xl font-semibold">Roblox Group Management Service</h3>
+                    <a href="https://github.com/zhul498/discord-bot-public"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl font-semibold text-blue-500 hover:text-blue-700 hover:underline">
+                        <h3 className="vertical-timeline-element-title">Roblox Group Management Service</h3>
+                    </a>
                     <p>ROBLOX group management service, handling 300+ members.</p>
                 </VerticalTimelineElement>
 

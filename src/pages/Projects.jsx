@@ -4,6 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { SiRoblox } from "react-icons/si";
 import { CgGym } from "react-icons/cg";
 import { FaTasks } from "react-icons/fa";
+import { GiVikingHelmet } from "react-icons/gi";
 import { DarkModeContext } from '../components/DarkModeContext.jsx';
 
 const Projects = () => {
@@ -17,8 +18,20 @@ const Projects = () => {
                     contentStyle={{ background: darkMode ? '#333' : '#fff', color: darkMode ? '#fff' : '#000' }}
                     contentArrowStyle={{ borderRight: `7px solid ${darkMode ? '#333' : '#fff'}` }}
                     iconStyle={{ background: darkMode ? '#333' : '#000', color: '#fff' }}
+                    icon={<GiVikingHelmet />}
+                    date="December 2024 - Present">
+                    <h3 className="vertical-timeline-element-title text-xl font-semibold">Viking Grades</h3>
+                    <p>Currently developing a website to enhance transparency at PSU. This website will provide students with detailed information about course performance trends,
+                        grade distributions, and instructor data.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: darkMode ? '#333' : '#fff', color: darkMode ? '#fff' : '#000' }}
+                    contentArrowStyle={{ borderRight: `7px solid ${darkMode ? '#333' : '#fff'}` }}
+                    iconStyle={{ background: darkMode ? '#333' : '#000', color: '#fff' }}
                     icon={<SiRoblox />}
-                    date="June 2024 - Present">
+                    date="June 2024 - December 2024">
                     <h3 className="vertical-timeline-element-title text-xl font-semibold">Roblox Group Management Service</h3>
                     <p>ROBLOX group management service, handling 300+ members.</p>
                 </VerticalTimelineElement>

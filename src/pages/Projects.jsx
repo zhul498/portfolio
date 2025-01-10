@@ -6,8 +6,6 @@ import { CgGym } from "react-icons/cg";
 import { FaTasks } from "react-icons/fa";
 import { GiVikingHelmet } from "react-icons/gi";
 import { DarkModeContext } from '../components/DarkModeContext.jsx';
-import { GiVikingHelmet } from "react-icons/gi";
-
 
 const Projects = () => {
     const { darkMode } = useContext(DarkModeContext);

@@ -30,6 +30,25 @@ const Projects = () => {
                         grade distributions, and instructor data.
                     </p>
                 </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: darkMode ? '#333' : '#fff', color: darkMode ? '#fff' : '#000' }}
+                    contentArrowStyle={{ borderRight: `7px solid ${darkMode ? '#333' : '#fff'}` }}
+                    iconStyle={{ background: darkMode ? '#333' : '#000', color: '#fff' }}
+                    icon={<SiRoblox />}
+                    date="July 2024 - Present">
+                    <a href="https://github.com/zhul498/portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl font-semibold text-blue-500 hover:text-blue-700 hover:underline">
+                        <h3 className="vertical-timeline-element-title">This website!</h3>
+                    </a>
+                    <p>This portfolio website started summer of 2024, aiming to get familiar with frontend development. Now, I incrementally update it to keep up with my 
+                        projects and college information.
+                    </p>
+                </VerticalTimelineElement>
+
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: darkMode ? '#333' : '#fff', color: darkMode ? '#fff' : '#000' }}
@@ -45,6 +64,7 @@ const Projects = () => {
                     </a>
                     <p>ROBLOX group management service, handling 300+ members.</p>
                 </VerticalTimelineElement>
+
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"

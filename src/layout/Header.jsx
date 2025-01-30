@@ -8,7 +8,8 @@ const Header = () => {
           <img src="/assets/profile.png" alt="Lian Zhu" className="w-28 h-28 rounded-full object-cover" />
           <div className="text-left">
             <h1 className="text-3xl font-bold">Lian Zhu</h1>
-            <h2 className="text-xl text-text-secondary">Computer Science Major at Portland State University</h2>
+            <h2 className="text-xl text-text-secondary">Computer Science Major, at Portland State University</h2>
+            <h3 className="text-l text-text-secondary">Minor in Mathematics</h3>
             <p className="text-sm">Portland, Oregon, United States</p>
             <div className="mt-2 space-x-2 text-sm">
               <a href="mailto:lianzhu@pdx.edu" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Email</a>

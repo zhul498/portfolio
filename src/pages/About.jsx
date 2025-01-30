@@ -26,7 +26,7 @@ const About = () => {
           <h3 className="text-xl font-semibold">Portland State University</h3>
           <h4 className="text-lg">Bachelor's of Science</h4>
           <p className="text-sm text-text-secondary">Expected Graduation: June 2027 GPA: 3.98/4.00</p>
-          <p className="text-gray-700 leading-7  dark:text-gray-400">Studying B.S in Computer Science from the Maseeh College of Engineering.</p>
+          <p className="text-gray-700 leading-7  dark:text-gray-400">Studying B.S in Computer Science from the Maseeh College of Engineering. Minoring in Mathematics.</p>
         </div>
 
         <div className="mb-6">

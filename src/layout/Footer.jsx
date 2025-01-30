@@ -7,7 +7,7 @@ const Footer = ({ onOpenPopup }) => {
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
   return (
-    <footer className="fixed bottom-0 left-0 w-full z-50 bg-gray-100">
+    <footer className="fixed bottom-0 left-0 w-full z-50 bg-gray-100 mt-5">
       <div className="relative py-1 flex items-center">
         <div className="absolute left-1/2 transform -translate-x-1/2">
           <p className="text-center text-sm">

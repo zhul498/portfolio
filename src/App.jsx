@@ -4,7 +4,7 @@ import Header from './layout/Header.jsx';
 import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
 import Navigation from './layout/Navigation.jsx';
-import Miscellaneous from './pages/Miscellaneous.jsx';
+import Experience from './pages/Experience.jsx';
 import Footer from './layout/Footer.jsx';
 import Feedback from './components/Feedback.jsx';
 import { DarkModeProvider } from './components/DarkModeContext.jsx';
@@ -25,7 +25,7 @@ const AppContent = () => {
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects/*" element={<Projects />} />
-            <Route path="/miscellaneous/*" element={<Miscellaneous />} />
+            <Route path="/experience/*" element={<Experience />} />
           </Routes>
         </main>
         <Footer onOpenPopup={handleOpenPopup} />

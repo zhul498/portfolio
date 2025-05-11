@@ -6,7 +6,7 @@ const Projects = () => {
   const { darkMode } = useContext(DarkModeContext);
 
   return (
-    <div className={`bg-white dark:bg-neutral-900 dark:text-white`}>
+    <div className={`bg-white dark:bg-neutral-900 dark:text-white animate-fade-in`}>
       <div className="text-center my-10">
         <h1 className="text-4xl font-bold text-neutral-900 dark:text-white">Projects</h1>
       </div>

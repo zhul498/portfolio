@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div className="bg-white dark:bg-neutral-900 dark:text-white py-12">
+    <div className="bg-white dark:bg-neutral-900 dark:text-white py-12 animate-fade-in">
       <div className="max-w-5xl mx-auto px-6">
         <h1 className="text-3xl font-bold text-center text-neutral-900 dark:text-white mb-8">Work Experience</h1>
         

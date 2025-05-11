@@ -5,8 +5,7 @@ This is the source code for my [portfolio website.](https://lianzhu.info)
 - React
 - Tailwind CSS
 - Vite
-- React Icons
-- [Vertical Timeline](https://www.npmjs.com/package/react-vertical-timeline-component)
+
 
 ## Installation
 1) Clone the repository
@@ -21,5 +20,3 @@ This is the source code for my [portfolio website.](https://lianzhu.info)
 ## Deployment
 Deployed through [DigitalOcean](https://www.digitalocean.com/). 
 
-## Credits
-This will more likely than not be inspired by other [portfolio websites](https://aidanandrews.info/) just so I can get the hang of frontend development technologies.

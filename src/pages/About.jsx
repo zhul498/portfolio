@@ -45,7 +45,6 @@ const About = () => {
               <h3 className="text-3xl font-bold text-green-800 mb-1">Portland State University</h3>
               <h4 className="text-lg font-semibold mb-1">B.S. in Computer Science, Maseeh College of Engineering</h4>
 
-              {/* GPA bubble placed to the left of "Minor in Mathematics" */}
               <div className="flex items-center gap-2 mb-1">
                 <div className="bg-green-700 text-white text-sm font-semibold px-3 py-0.5 rounded-full shadow-md opacity-80">
                   GPA: 3.98

@@ -6,11 +6,7 @@ const Projects = () => {
   const { darkMode } = useContext(DarkModeContext);
 
   return (
-    <div className={`bg-white dark:bg-neutral-900 dark:text-white animate-fade-in`}>
-      <div className="text-center my-10">
-        <h1 className="text-4xl font-bold text-neutral-900 dark:text-white">Projects</h1>
-      </div>
-
+    <div className={`bg-white dark:bg-neutral-900 dark:text-white animate-fade-in pb-20`}>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 max-w-7xl mx-auto">
         <Card
           icon="/assets/projects/viking.svg"

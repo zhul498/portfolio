@@ -30,7 +30,7 @@ const Header = () => {
           <div className="text-left">
             <h1 className="text-3xl font-bold">Lian Zhu</h1>
             <h2 className="text-xl text-neutral-500 dark:text-neutral-400">
-              Computer Science Major, at Portland State University
+              Computer Science Major at Portland State University
             </h2>
             <h3 className="text-lg text-neutral-500 dark:text-neutral-400">Minor in Mathematics</h3>
             <p className="text-sm mt-1 text-neutral-500 dark:text-neutral-400">

@@ -32,7 +32,7 @@ const About = () => {
         <div className="flex flex-col gap-4">
           <h1 className="text-2xl font-bold">Education</h1>
 
-          <div className="flex flex-row gap-6 items-start p-6 rounded-xl hover:shadow-xl transition-shadow bg-white dark:bg-neutral-900">
+          <div className="flex flex-row gap-6 items-start p-6 rounded-xl border border-transparent hover:border-green-700 hover:shadow-xl transition-shadow bg-white dark:bg-neutral-900">
             <div className="relative w-40 h-40 flex-shrink-0 mt-1">
               <img
                 src="/psu-logo.jpg"

@@ -6,7 +6,7 @@ const Card = ({ icon, title, link, description, timeline }) => {
       href={link} 
       target="_blank" 
       rel="noopener noreferrer" 
-      className="bg-white dark:bg-neutral-800 shadow-md rounded-xl p-5 transition hover:shadow-lg flex flex-col sm:flex-row gap-4"
+      className="bg-white dark:bg-neutral-800 shadow-md rounded-xl p-5 transition border border-transparent hover:border-green-700 hover:shadow-lg flex flex-col sm:flex-row gap-4"
     >
       <div className="flex-shrink-0">
         <img src={icon} alt={`${title} icon`} className="w-12 h-12" />

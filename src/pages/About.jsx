@@ -1,6 +1,7 @@
 import React from 'react';
 import Skills from '../components/Skills';
 import ImageCarousel from '../components/ImageCarousel';
+import DocuCard from '../components/DocuCard'; 
 
 const About = () => {
   return (
@@ -17,11 +18,7 @@ const About = () => {
             </p>
 
             <h1 className="text-2xl font-bold mt-8 mb-4">Documents</h1>
-            <p className="leading-7">
-              <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Resume</a>
-              <span> | </span>
-              <a href="/assets/Transcript.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Unofficial Transcript</a>
-            </p>
+            <DocuCard />
           </div>
 
           <div className="md:w-1/3 flex flex-col items-center gap-4">

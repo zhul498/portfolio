@@ -34,7 +34,7 @@ const ImageCarousel = () => {
   return (
     <div
       ref={containerRef}
-      className="relative w-full max-w-md h-96 overflow-hidden rounded-xl shadow-md"
+      className="relative w-full max-w-md overflow-hidden rounded-xl shadow-md"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >

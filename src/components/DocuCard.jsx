@@ -41,10 +41,6 @@ const DocuCard = () => {
             />
           </Zoom>
 
-          {/* Mobile-only click hint */}
-          <div className="md:hidden text-sm text-gray-600 text-center">
-            Tap to view PDF
-          </div>
         </div>
       ))}
     </div>

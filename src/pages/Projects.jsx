@@ -9,17 +9,19 @@ const Projects = () => {
     <div className={`bg-white dark:bg-neutral-900 dark:text-white animate-fade-in pb-20`}>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 max-w-7xl mx-auto">
         <Card
-          icon="/assets/projects/viking.svg"
-          title="Viking Grades"
+          icon="/assets/projects/fsu_logo.svg"
+          title="Data Visualization Tool"
           link="https://example.com"
-          description="Currently developing a website to enhance transparency at PSU. This website will provide students with detailed information about course performance trends, grade distributions, and instructor data."
-          timeline="December 2024 - Present"
+	  description="Full-stack app that visualizes a university's course and professor grade distributions using a custom SQLite3 database. Enables search by professor or course, showing term-by-term grade trends and teaching history."
+	  tech="React + Vite, JavaScript, Node.js, SQLite3"
+          timeline="December 2024 - May 2025"
         />
         <Card
           icon="/assets/projects/portfolio-icon.svg"
           title="Portfolio Website"
           link="https://github.com/zhul498/portfolio"
           description="This portfolio website started in summer 2024 to get familiar with frontend development, with incremental updates."
+	  tech="React + Vite, JavaScript, tailwindcss"
           timeline="July 2024 - Present"
         />
         <Card
@@ -27,6 +29,7 @@ const Projects = () => {
           title="Roblox Group Management Service"
           link="https://github.com/zhul498/discord-bot-public"
           description="ROBLOX group management service handling 300+ members."
+	  tech="Python, discord.py, Pillow"
           timeline="June 2024 - December 2024"
         />
         <Card
@@ -34,6 +37,7 @@ const Projects = () => {
           title="Barbell Path Tracker"
           link="#"
           description="OpenCV program to track the path of a barbell and calculate the deviation from the center of path."
+	  tech="Python, OpenCV"
           timeline="February 2024 - June 2024"
         />
         <Card
@@ -41,6 +45,7 @@ const Projects = () => {
           title="CRUD CLI Application"
           link="#"
           description="C++ application using a linked list data structure for task management."
+	  tech="C++"
           timeline="March 2023 - July 2023"
         />
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ icon, title, link, description, timeline }) => {
+const Card = ({ icon, title, link, description, timeline, tech }) => {
   return (
     <a 
       href={link} 
@@ -17,9 +17,16 @@ const Card = ({ icon, title, link, description, timeline }) => {
           {title}
         </h3>
 
+        {tech && (
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+		{tech}
+          </p>
+        )}
+
         <p className="text-sm text-gray-700 dark:text-gray-300 mt-1 mb-2">
           {description}
         </p>
+
 
         <span className="text-xs text-gray-500 dark:text-gray-400 mt-auto">{timeline}</span>
       </div>
@@ -28,3 +35,4 @@ const Card = ({ icon, title, link, description, timeline }) => {
 };
 
 export default Card;
+

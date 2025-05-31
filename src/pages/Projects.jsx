@@ -11,7 +11,7 @@ const Projects = () => {
         <Card
           icon="/assets/projects/fsu_logo.svg"
           title="Data Visualization Tool"
-          link="https://example.com"
+          link="https://www.youtube.com/watch?v=wplYJyGQDFs"
 	  description="Full-stack app that visualizes a university's course and professor grade distributions using a custom SQLite3 database. Enables search by professor or course, showing term-by-term grade trends and teaching history."
 	  tech="React + Vite, JavaScript, Node.js, SQLite3"
           timeline="December 2024 - May 2025"

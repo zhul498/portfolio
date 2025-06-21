@@ -12,7 +12,7 @@ const About = () => {
           <div className="md:w-2/3">
             <h1 className="text-2xl font-bold mb-4">About Me</h1>
             <p className="text-gray-700 leading-7 dark:text-gray-400">
-              I am a Sophomore at Portland State University. As a current student focused mainly on learning and applying my skills as soon as possible, I am excited to
+              I am a Junior at Portland State University. As a current student focused mainly on learning and applying my skills as soon as possible, I am excited to
               use technology to create cool things. My projects give me the ability to apply my knowledge. Outside of school, I enjoy exercising, playing video games, and 
               trying out new foods.
             </p>
@@ -44,7 +44,7 @@ const About = () => {
 
               <div className="flex items-center gap-2 mb-1">
                 <div className="bg-green-700 text-white text-sm font-semibold px-3 py-0.5 rounded-full shadow-md opacity-80">
-                  GPA: 3.98
+                  GPA: 3.99
                 </div>
                 <h4 className="text-md font-semibold mb-1">Minor in Mathematics</h4>
               </div>
